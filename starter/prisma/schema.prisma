@@ -1,6 +1,6 @@
 datasource db {
   provider = "sqlite"
-  url      = env("./notes.db")
+  url      = env("./dev.db")
 }
 
 generator client {
